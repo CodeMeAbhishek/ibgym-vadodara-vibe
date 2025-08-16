@@ -56,6 +56,10 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				wellness: {
+					DEFAULT: 'hsl(var(--wellness))',
+					foreground: 'hsl(var(--wellness-foreground))'
+				},
 			},
 			backgroundImage: {
 				'gradient-primary': 'var(--gradient-primary)',
@@ -66,6 +70,7 @@ export default {
 				'neon': 'var(--glow-primary)',
 				'neon-secondary': 'var(--glow-secondary)',
 				'neon-accent': 'var(--glow-accent)',
+				'neon-wellness': 'var(--glow-wellness)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -99,7 +104,7 @@ export default {
 				},
 				'pulse-neon': {
 					'0%, 100%': { boxShadow: 'var(--glow-primary)' },
-					'50%': { boxShadow: '0 0 30px hsl(280 100% 70% / 0.8)' }
+					'50%': { boxShadow: '0 0 30px hsl(0 85% 60% / 0.8)' }
 				},
 				'float': {
 					'0%, 100%': { transform: 'translateY(0px)' },
